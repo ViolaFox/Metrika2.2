@@ -1,0 +1,14 @@
+.gallery__name {
+  margin-bottom: 0;
+  bottom: 8%;
+  left: 10%;
+  width: 443px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}

@@ -1,0 +1,43 @@
+.contacts__title {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.section-contacts h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 37px;
+  left: -4px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/Vector.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.contacts {
+  margin-bottom: 30px;
+  width: 479px;
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  display: block;
+}
+
+.contacts-mail {
+  width: 412px;
+}
+
+.contacts:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}
